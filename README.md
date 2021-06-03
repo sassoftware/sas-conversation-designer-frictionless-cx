@@ -1,8 +1,9 @@
-# sas-conversation-designer-frictionless-cx
-This use case demonstrates how a conversational interface, based on SAS Conversation Designer, can help customers encounter a smooth experience while returning their purchases.
 
 # Smooth Customer Journeys @ eCalico
 _eCalico is a fictional retailer.  This demonstration was also used for the SAS Global Forum 2021 General Session : Technology Connect._
+
+# sas-conversation-designer-frictionless-cx
+This use case demonstrates how a conversational interface, based on SAS Conversation Designer, can help customers encounter a smooth experience while returning their purchases.
 
 ## Why should you care?
 
