@@ -10,7 +10,7 @@ Successful organizations consistently explore means to improve Customer Satisfac
 Taking Retail as an example, recent changes in customer shopping behavior, due to the pandemic, have led to increased online shopping and consequently increased returned purchases.  
 Therefore, organizations need to ensure smooth customer experiences while handling returns, and at the same time, make optimal decisions to keep reverse logistics costs at a minimum.   
 
-## Top three messages this demo provides : 
+## Top three messages this example provides : 
 
 1. **Conversational AI helps ensure smooth and frictionless customer journeys**; an example using online returns is shown in this demo. 
 2. Conversational AI also facilitates using **analytics along the customer journey in order to take decisions** which bring optimal results for both organizations and their customers.
@@ -18,7 +18,7 @@ Therefore, organizations need to ensure smooth customer experiences while handli
 
 ![Frictionless customer journeys @ eCalico](/ppt/Top_3_eCalico.jpg)
 
-## Running the demo
+## Running the example
 
 ### Pre-requisites
 1. A SAS Viya 4 server (version 2021.1.1 monthly, 2021.1 LTS or later preferred )
