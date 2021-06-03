@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<!-- Copyright � 2020, SAS Institute Inc., Cary, NC, USA.  All Rights Reserved. -->
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<html>
+    <head>
+        <title>eCalico</title>
+        <script src="https://code.jquery.com/jquery.js"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+              integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
+        <link rel="stylesheet" href="/stylesheets/style.css">
+        <meta charset="utf-8">
+        <script src="/javascript/globals.js"></script>
+        <script src="/javascript/chat.js"></script>
+        <script src="/javascript/camera.js"></script> 
+        <script src="/javascript/onload.js"></script> 
+        <script src="/javascript/helperFunctions.js"></script> 
+    </head>
+<body onload="onLoadBody()">
+    <div class="jumbotron alert header">
+        <img src="views/img/logo_eCalico.png"  alt="Company Logo"/>
+        <h1 class="title"> </h1>
+        <img src="views/img/sas_viya_white.png" alt="SAS Viya Logo"/>
+    </div>
+    <button class="mainContentChatButton" onclick="openChatDialog()">
+        <img src="views/img/chat-1.png" alt="Main Page"/>
+    </button>
+    <div class="mainContent col-lg-4 speechBubble sb8">
+        <h3 class="mainTitle">eCalico Virtual Assistant</h3>
+        <div class="chatContent" id="chatContent"></div>
+        <div class="inputContent">
+            <label for="userInputField"></label><input class="userInputField" id="userInputField" placeholder="Interact with me" x-webkit-speech>
+            <input class="btn-primary sendButton" id="sendButton" type="button" value="Go">
+        </div>
+    </div>
+    <div class="row" id="fullPane">
+        <div class="col-lg-12" style="height: 500px">
+            <div class="mainContentTitle">CUE THE COLOR</div>
+            <button class="mainContentButton">Shop the collection</button>
+            <img src="views/img/bags.jpg" class="mainContentImage" alt="Main Page"/>
+        </div>
+        <div class="col-lg-4" style="padding: 1rem;">
+            <img src="views/img/Untitled.png" class="categoryContent" alt="Main Page"/>
+        </div>
+        <div class="col-lg-4" style="padding: 1rem;">
+            <img src="views/img/Untitled1.png" class="categoryContent" alt="Main Page"/>
+        </div>
+        <div class="col-lg-4" style="padding: 1rem;">
+            <img src="views/img/Untitled3.png" class="categoryContent" alt="Main Page"/>
+        </div>
+    </div>
+    <div class="jumbotron alert footer">
+        <img src="views/img/sas.png" alt="Company Logo"/>
+        <span class="title">Privacy Statement | Terms of Use | © 2020 eCalico Inc. All Rights Reserved.</span>
+    </div>
+</body>
+</html>
