@@ -1,3 +1,6 @@
+# Archived repository
+
+### Notice: The functionality provided in this repository is no longer shipped with SAS software. Hence, the repository will no long accept submissions or offer support.
 
 # Smooth Customer Journeys @ eCalico
 _eCalico is a fictional retailer.  This demonstration was also used for the SAS Global Forum 2021 General Session : Technology Connect._
